@@ -73,7 +73,7 @@ const ItemDetails = ({ params }) => {
 
   const handleAddToCart = (selectedItem) => {
     dispatch(addBookToCart(selectedItem));
-    toast.success("Book added successfully!");
+    toast.success("goat added successfully!");
     setTimeout(() => {
       router.push("/");
     }, 2000);

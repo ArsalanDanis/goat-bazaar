@@ -1,0 +1,9 @@
+.generComp {
+    margin: 0 80px;
+}
+
+@media screen and (max-width:640px) {
+    .generComp {
+        margin: 0 30px;
+    }
+}

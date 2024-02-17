@@ -1,0 +1,32 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 20px 80px;
+    margin-top: 50px;
+}
+
+.next-btns button {
+    min-width:200px;
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    .next-btns{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    
+}

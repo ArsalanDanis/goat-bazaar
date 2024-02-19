@@ -1,5 +1,5 @@
 // RazorpayPayment.js
-
+"use client"
 import React from 'react';
 import Razorpay from 'react-razorpay';
 

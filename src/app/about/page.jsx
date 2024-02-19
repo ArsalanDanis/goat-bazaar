@@ -1,3 +1,4 @@
+"use client"
 import Head from 'next/head';
 import styles from './About.module.css';
 import AboutAuthor from './aboutAuthor';

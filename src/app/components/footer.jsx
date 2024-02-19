@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { FaFacebook, FaGoogle, FaInstagram, FaTwitter } from "react-icons/fa";
 import './footer.css'

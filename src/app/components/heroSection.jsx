@@ -1,3 +1,5 @@
+"use client"
+
 const HeroSection = () => {
     return (
       <section style={{ margin: '0 80px' }} className="hero-section bg-light mt-5 py-5">

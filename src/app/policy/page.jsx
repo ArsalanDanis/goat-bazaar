@@ -18,7 +18,7 @@ const PolicyComponent = () => {
     },
     {
       title: 'Health Guarantee',
-      content: 'Provide information about any health guarantees or warranties offered with purchased goats. Explain the process for addressing health-related concerns or issues with purchased goats. Include any requirements for documenting health-related claims or concerns.',
+      content: 'Provide information about any health guarantees or warranties offered with purchased goats. Explain the process for addressing health-related concerns or issues with purchased goats. Include any requirements for ing health-related claims or concerns.',
     },
     {
       title: 'Privacy Policy',

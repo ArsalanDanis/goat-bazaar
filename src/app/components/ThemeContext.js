@@ -50,20 +50,20 @@ export const ThemeProvider = ({ children }) => {
     // ... other properties
   };
 
-  useEffect(() => {
-    // Apply theme-related side effects (if any)
-    document.body.style.background = theme.backgroundColor;
-    document.body.style.color = theme.textColor;
-    const elements = document.getElementsByClassName("price");
-    for (let i = 0; i < elements.length; i++) {
-      elements[i].style.color = theme.priceColor;
-    }
-    const texts =  document.getElementsByClassName('support');
-    for (let i = 0; i < texts.length; i++) {
-      texts[i].style.color = theme.supportColor;
-    }
-    // ... other side effects
-  }, [theme]);
+  // useEffect(() => {
+  //   // Apply theme-related side effects (if any)
+  //   document.body.style.background = theme.backgroundColor;
+  //   document.body.style.color = theme.textColor;
+  //   const elements = document.getElementsByClassName("price");
+  //   for (let i = 0; i < elements.length; i++) {
+  //     elements[i].style.color = theme.priceColor;
+  //   }
+  //   const texts =  document.getElementsByClassName('support');
+  //   for (let i = 0; i < texts.length; i++) {
+  //     texts[i].style.color = theme.supportColor;
+  //   }
+  //   // ... other side effects
+  // }, [theme]);
 
   return (
     <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>

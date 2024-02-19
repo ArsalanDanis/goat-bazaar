@@ -219,7 +219,7 @@ import { auth } from "../firebase/firebase";
                     Login
                   </button>
                   <p className="small fw-bold mt-2 pt-1 mb-0">
-                    Don't have an account?{" "}
+                    Dont have an account?{" "}
                     <Link href="/usersSignUp" className="link-danger">
                       Create a new account
                     </Link>

@@ -110,7 +110,7 @@ const Comics = () => {
                   Hudson Booksellers
                 </button>
                 <button type="button" className="btn btn-outline-dark">
-                  Powell's
+                  Powells
                 </button>
                 <button type="button" className="btn btn-outline-dark">
                   Target
@@ -279,7 +279,7 @@ const Comics = () => {
               SIGN UP
             </button>
           </div>
-          <p className=" my-4" style={{ maxWidth:'900px',fontFamily:'fantasy',opacity:'0.6'}}>By clicking "Sign Up", I acknowledge that I have read and agree to Penguin Random House's Privacy Policy and Terms of Use and understand that Penguin Random House collects certain categories of personal information for the purposes listed in that policy, discloses, sells, or shares certain personal information and retains personal information in accordance with the policy. You can opt-out of the sale or sharing of personal information anytime.</p>
+          <p className="my-4" style={{ maxWidth:'900px',fontFamily:'fantasy',opacity:'0.6'}}>By clicking Sign Up, I acknowledge that I have read and agree to Penguin Random Houses Privacy Policy and Terms of Use and understand that Penguin Random House collects certain categories of personal information for the purposes listed in that policy, discloses, sells, or shares certain personal information and retains personal information in accordance with the policy. You can opt-out of the sale or sharing of personal information anytime.</p>
         </div>
       </section>
     </div>

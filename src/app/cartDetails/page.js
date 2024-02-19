@@ -149,7 +149,7 @@ const CartDetails = () => {
               className="btn btn-primary mt-3 pt-2 pb-2"
               style={{ maxWidth: "350px" }}
             >
-              "Your cart is currently empty. Please add items to proceed."
+              Your cart is currently empty. Please add items to proceed.
             </button>
           </Link>
         </div>
